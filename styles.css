@@ -1,0 +1,98 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+html, body {
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
+}
+
+.container {
+    min-height: 100vh; /* Make the container fill the full height of the viewport */
+    width: 100%; /* Set width to 100% to fill the entire width of the screen */
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #2c3e50;
+   margin-bottom: 5px;
+}
+
+header h2 {
+    font-size: 22px;
+    color: #2980b9;
+   margin-bottom: 10px;
+}
+
+header h3 {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #2c3e50;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+    /* color: #7f8c8d; */
+    color: #000;
+    margin-bottom: 1px; /* Adds 10px space between paragraphs */
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: #2c3e50;
+    color: #fff;
+}
